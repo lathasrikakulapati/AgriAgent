@@ -1,0 +1,120 @@
+{
+  "markets": [
+    {
+      "id": "mumbai_vashi",
+      "name": "Vashi APMC",
+      "city": "mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "lat": 19.0760,
+      "lon": 72.8777,
+      "type": "gros",
+      "products": ["peanut", "wheat", "rice", "soybean", "onion"]
+    },
+    {
+      "id": "pune_apmc",
+      "name": "Pune APMC",
+      "city": "pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "lat": 18.5204,
+      "lon": 73.8567,
+      "type": "regional",
+      "products": ["peanut", "soybean", "tomato", "onion"]
+    },
+    {
+      "id": "ludhiana_mandi",
+      "name": "Ludhiana Grain Market",
+      "city": "ludhiana",
+      "state": "Punjab",
+      "country": "India",
+      "lat": 30.9010,
+      "lon": 75.8573,
+      "type": "gros",
+      "products": ["wheat", "rice", "grains"]
+    },
+    {
+      "id": "dakar_central",
+      "name": "Marché Sandaga",
+      "city": "dakar",
+      "state": "Dakar",
+      "country": "Senegal",
+      "lat": 14.6694,
+      "lon": -17.4380,
+      "type": "gros",
+      "products": ["peanut", "millet", "rice", "maize", "tomato", "onion"]
+    },
+    {
+      "id": "kaolack_central",
+      "name": "Marché Central Kaolack",
+      "city": "kaolack",
+      "state": "Kaolack",
+      "country": "Senegal",
+      "lat": 14.1539,
+      "lon": -16.0758,
+      "type": "gros",
+      "products": ["peanut", "millet", "maize"]
+    }
+  ],
+  "prices": {
+    "peanut": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Maharashtra": {"min": 5500, "max": 7200, "avg": 6300, "currency": "INR"},
+        "Gujarat": {"min": 5200, "max": 7000, "avg": 6100, "currency": "INR"},
+        "Dakar": {"min": 35000, "max": 50000, "avg": 42500, "currency": "FCFA"},
+        "Kaolack": {"min": 27500, "max": 40000, "avg": 34000, "currency": "FCFA"}
+      },
+      "trend": "up",
+      "notes": "High demand in crushing season. Prices higher off-season."
+    },
+    "wheat": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Punjab": {"min": 2200, "max": 2400, "avg": 2300, "currency": "INR"},
+        "Haryana": {"min": 2250, "max": 2450, "avg": 2350, "currency": "INR"},
+        "Maharashtra": {"min": 2500, "max": 3000, "avg": 2750, "currency": "INR"}
+      },
+      "trend": "stable",
+      "notes": "Government procurement drives stability. Premium for Sharbati variety."
+    },
+    "grains": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Punjab": {"min": 2000, "max": 2500, "avg": 2250, "currency": "INR"},
+        "Maharashtra": {"min": 2100, "max": 2600, "avg": 2350, "currency": "INR"},
+        "Dakar": {"min": 25000, "max": 40000, "avg": 32500, "currency": "FCFA"}
+      },
+      "trend": "up",
+      "notes": "Strong festival demand. Prices peak pre-harvest."
+    },
+    "soybean": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Maharashtra": {"min": 4000, "max": 5200, "avg": 4600, "currency": "INR"},
+        "Madhya Pradesh": {"min": 3800, "max": 4900, "avg": 4400, "currency": "INR"}
+      },
+      "trend": "down",
+      "notes": "Global oilseed prices affecting domestic markets. Hold for better rates."
+    },
+    "rice": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Punjab": {"min": 3000, "max": 4500, "avg": 3750, "currency": "INR"},
+        "Maharashtra": {"min": 3500, "max": 5000, "avg": 4200, "currency": "INR"},
+        "Dakar": {"min": 35000, "max": 50000, "avg": 40000, "currency": "FCFA"}
+      },
+      "trend": "up",
+      "notes": "Export demands keeping prices elevated."
+    },
+    "onion": {
+      "unit": "100kg",
+      "prices_by_state": {
+        "Maharashtra": {"min": 1500, "max": 3500, "avg": 2500, "currency": "INR"},
+        "Dakar": {"min": 25000, "max": 60000, "avg": 40000, "currency": "FCFA"}
+      },
+      "trend": "volatile",
+      "notes": "Highly volatile. Low prices during harvest, high during off-season."
+    }
+  }
+}
